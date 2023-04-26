@@ -128,6 +128,7 @@ def editingSession(canvas,width,height,name):
             print('o - turn autodraw on/off')
             print('save{num} - saves the canvas as an image with the font size num')
             print('quit - exits the editor')
+            print('text{text} - inserts text starting from location of the cursor')
             input()
         elif command == 'quit':
             running = False
